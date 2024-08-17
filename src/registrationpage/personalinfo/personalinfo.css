@@ -1,0 +1,50 @@
+.personal-information{
+    background-color: rgb(30, 28, 28);
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.personal-info-number-border{
+    padding: 1rem;
+    width: 1rem;
+    height: 1rem;
+    /* line-height: 1rem; */
+    border-radius: 50%;
+    text-align: center;
+    background-color:rgb(30, 79, 164) ;
+    color: white;
+}
+/* personal-info-inputs */
+.personal-info-inputs{
+    background-color: rgb(227, 217, 230);
+}
+label{
+    padding: 1rem 0;
+}
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: .61rem;
+    border-radius: .3rem;
+}
+select{
+    border:none;
+    outline: none;
+    width: 100%;
+    padding: .61rem;
+    border-radius: .3rem;
+}
+select:focus{
+    border: solid 2px lightskyblue;
+}
+input:focus{
+    border: solid 2px lightskyblue;
+}
+/* random-letter-number */
+.random-letter-number{
+    width: 13rem;
+    font-weight: bold;
+    font-size: 3rem;
+    background-color: red;
+}

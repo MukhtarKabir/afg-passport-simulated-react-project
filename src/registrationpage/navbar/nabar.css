@@ -1,0 +1,56 @@
+
+/* resisteraion-navbar-container */
+.resisteraion-navbar-container{
+    background-color: rgb(43, 118, 184);
+    padding: 3rem 0;
+    color: white;
+}
+/* resisteration-number-part */
+.resisteration-number-part,.resisteration-name-part{
+    display: flex;
+}
+/* resisteration-item-number */
+.resisteration-item-number{
+    text-align: center;
+    width: 11%;
+    position: relative;
+    z-index: 10;
+}
+.resisteration-item-number button{
+    border: solid 2px white;
+    background-color: rgb(161, 153, 153);
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 1rem 0;   
+}
+/* resisteration-name-part */
+.resisteration-item-name{
+    text-align: center;
+    width: 11%;
+}
+/* resisteration-border */
+.resisteration-border{
+    border: solid 2px gray;
+    width: 100%;
+    position: absolute;
+    top: 85px;
+    z-index: 0;
+}
+@media (max-width:767px) {
+    .resisteration-item-name{
+        font-size: 11px;
+    }
+}
+/*navbar-search-lang  */
+.navbar-search-lang{
+    text-align: left;
+}
+.navbar-search-lang a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 1rem;
+}
